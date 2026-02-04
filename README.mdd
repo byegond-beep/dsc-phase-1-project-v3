@@ -1,0 +1,65 @@
+# Risk Assessment for Strategic Aircraft Fleet Expansion
+
+## Author
+**Diana Byegon**  
+Moringa School – Data Science  
+Part-Time Program  
+
+## Project Overview
+This project evaluates aviation safety risks to support strategic aircraft fleet expansion. The analysis uses historical aviation accident data to identify aircraft models and manufacturers with the lowest operational risk, enabling data-driven procurement decisions for a company entering the aviation industry.
+
+## Business Problem
+The company is expanding into aviation without prior experience in aircraft safety and operational risk. This presents potential financial and operational exposure. The objective is to identify low-risk aircraft to guide safe and cost-effective fleet acquisition.
+
+## Business Objective
+Analyze historical aviation accident data to:
+- Identify aircraft models with the lowest accident frequency
+- Identify aircraft with the lowest fatality rates
+- Examine accident trends over time  
+- Deliver actionable recommendations for risk-conscious fleet acquisition
+
+## Key Business Questions
+1. Which aircraft models demonstrate the lowest accident frequency?
+2. Which aircraft models have the lowest fatality rates per accident?
+3. How have aviation accident rates changed over time?
+
+## Data
+- **Source:** Aviation Safety Network (ASN)
+- **Scope:** Historical aviation accident records
+- **Key Fields:**  
+  - Accident date  
+  - Aircraft type and manufacturer  
+  - Operator  
+  - Fatalities  
+  - Location  
+  - Damage severity  
+
+## Methodology
+- Data cleaning and preprocessing  
+- Standardization of aircraft type names  
+- Handling missing values  
+- Feature engineering (year, manufacturer)  
+- Exploratory Data Analysis (EDA)  
+- Trend and risk analysis by aircraft type and manufacturer  
+
+## Key Insights
+- Several aircraft models from **Bombardier/Canadair** and **Learjet** exhibit both low accident frequency and near-zero fatality rates.
+- Manufacturers such as **Bombardier**, **Learjet**, and **Boeing** consistently appear among lower-risk aircraft categories.
+- Aviation accident frequency has declined steadily over time, reflecting improvements in aircraft technology, regulation, and pilot training.
+
+## Recommendations
+1. Prioritize acquisition of aircraft models from **Bombardier/Canadair** and **Learjet** due to their strong safety performance.
+2. Incorporate historical accident frequency and fatality rates into fleet procurement criteria.
+3. Maintain and strengthen safety regulations, pilot training, and maintenance standards to sustain declining accident trends.
+
+## Visualizations
+The analysis includes:
+- Aircraft accident frequency comparisons
+- Fatality rate analysis by aircraft type
+- Accident trends over time
+- Manufacturer accident distribution
+
+## Next Steps
+- Expand analysis to include exposure metrics such as flight hours per aircraft
+- Incorporate cost and operational efficiency data for multi-factor decision making
+- Perform predictive risk modeling for future fleet planning
